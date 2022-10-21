@@ -119,8 +119,8 @@ const Select1 = styled.select`
     color: gray;
     font-size: 13px;
     border: 1px solid lightgray;
-    -webkit-appearance: none;  /* for webkit (safari, chrome) compatibility */
-    -moz-appearance: none; /* for firefox compatibility */
+    -webkit-appearance: none;  
+    -moz-appearance: none; 
     appearance: none;
     -webkit-border-radius:0; 
     border-radius:0; 
@@ -136,10 +136,9 @@ const Select = styled.select`
     color: gray;
     border: 1px solid lightgray;
     margin-bottom: 20px;
-    -webkit-appearance: none;  /* for webkit (safari, chrome) compatibility */
-    -moz-appearance: none; /* for firefox compatibility */
+    -webkit-appearance: none;  
+    -moz-appearance: none; 
     appearance: none;
-    /* -webkit-border-radius:0;  */
     -webkit-appearance: listbox !important
     ${media.mobile`
         width: 60%;
