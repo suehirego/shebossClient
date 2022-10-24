@@ -4,6 +4,7 @@ import media from '../media';
 
 const Container = styled.div`
       display: flex;
+      width: 100%;
       align-items: center;
       flex-direction: column;
       justify-content: center;
@@ -19,11 +20,11 @@ const Container = styled.div`
      `}
       ${media.tablet`
             // background: blue;
-            padding: 40px 80px;
+            padding: 40px 0px;
       `}
       ${media.mobile`
             // background: yellow;
-            padding: 20px 50px;
+            padding: 20px 0px;
       `}
 `;
 const NewsletterContainer = styled.div`

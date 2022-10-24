@@ -15,7 +15,6 @@ import { useFlutterwave, closePaymentModal } from 'flutterwave-react-v3';
 
 
 
-
 const Container = styled.div`
       display: flex;
       flex-direction: column;
@@ -34,9 +33,11 @@ const Wrapper = styled.div`
             padding: 20px 10px;
       `}
       ${media.tablet`
+            width:100%;
             padding: 20px 10px;
       `}
       ${media.mobile`
+            width:100%;
             padding: 20px 10px;
       `}
 `;
@@ -45,8 +46,13 @@ const Title = styled.p`
       display: flex;
       align-items: center;
       margin-bottom: 30px;
+      ${media.tablet`
+            font-size: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+      `}
       ${media.mobile`
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 20px;
             justify-content: center;
       `}
@@ -57,7 +63,7 @@ const Bottom = styled.div`
       gap: 20px;
       ${media.desktop`
             gap: 5px;
-            flex-direction: column;
+            /* flex-direction: column; */
       `}
       ${media.tablet`
             gap: 5px;
@@ -317,8 +323,14 @@ const Summary = styled.div`
 const SummaryTitle = styled.h2`
       font-weight: 400;
       text-align: center;
+      ${media.desktop`
+            font-size: 18px;
+      `}
+      ${media.tablet`
+            font-size: 20px;
+      `}
       ${media.mobile`
-      font-size: 20px;
+            font-size: 20px;
       `}
 `;
 const SummaryItem = styled.div`
@@ -328,6 +340,9 @@ const SummaryItem = styled.div`
       text-align: ${(props) => props.type === "subItem" && "right"};
       font-size: ${(props) => props.type === "total" ? "18px" : "15px"};
       font-weight: ${(props) => props.type === "total" ? 400 : 300};
+      ${media.desktop`
+            font-size: ${(props) => props.type === "total" ? "16px" : "14px"};
+      `}
 `;
 const SummaryItemText = styled.span`
 `;
@@ -361,6 +376,22 @@ const PaymentIconsDiv = styled.div`
      display: flex;
      gap: 20px;
      margin-bottom: 10px;
+`;
+const Img1 = styled.img`
+      width: 38px;
+      height: 30px;
+      ${media.tablet`
+            width: 42px;
+            height: 35px;
+      `}
+`;
+const Img2 = styled.img`
+      width: 38px;
+      height: 30px;
+      ${media.tablet`
+            width: 48px;
+            height: 32px;
+      `}   
 `;
 
 
@@ -534,35 +565,19 @@ const Cart = () => {
                                           <PaymentTitle>WE ACCEPT:</PaymentTitle>
                                           <PaymentIconsDiv>
 
-                                                <img
-                                                      style={{
-                                                            width: '20%',
-                                                            height: '20%',
-                                                      }}
+                                                <Img1
                                                       src={process.env.PUBLIC_URL + '/visa.png'}
                                                       alt=""
                                                 />
-                                                <img
-                                                      style={{
-                                                            width: '14%',
-                                                            height: '0%',
-                                                      }}
+                                                <Img1
                                                       src={process.env.PUBLIC_URL + '/mastercard.png'}
                                                       alt=""
                                                 />
-                                                <img
-                                                      style={{
-                                                            width: '20%',
-                                                            height: '20%',
-                                                      }}
+                                                <Img1
                                                       src={process.env.PUBLIC_URL + '/mtn.png'}
                                                       alt=""
                                                 />
-                                                <img
-                                                      style={{
-                                                            width: '28%',
-                                                            height: '40%',
-                                                      }}
+                                                <Img2
                                                       src={process.env.PUBLIC_URL + '/airtel.png'}
                                                       alt=""
                                                 />
