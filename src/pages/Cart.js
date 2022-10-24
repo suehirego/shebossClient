@@ -29,6 +29,7 @@ const TopNav = styled.div`
 `;
 const Wrapper = styled.div`
       padding: 20px 60px;
+      width:100%;
       ${media.desktop`
             padding: 20px 10px;
       `}

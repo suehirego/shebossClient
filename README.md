@@ -7,7 +7,8 @@ The app is picking data from a rest API at; https://shebossapi.herokuapp.com/api
 
 ## Technologies Used;
    1. Styled Components 
-   2. React
-   3. React Redux
-   4. Axios
-   5. Flutterwave-react-v3 for payments.
+   2. JavaScript
+   3. React
+   4. React Redux
+   5. Axios
+   6. Flutterwave-react-v3 for payments.
