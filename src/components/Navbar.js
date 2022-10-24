@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { logoutUser } from "../redux/userRedux";
 import media from '../media';
 import { useHistory } from "react-router";
-import { NavigateBefore } from '@mui/icons-material';
 
 
 const Container = styled.div`

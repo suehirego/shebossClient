@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const BASE_URL = "https://shebossapi.herokuapp.com/api/";
-// const TOKEN = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken;
 
 const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
 const currentUser = user && JSON.parse(user).currentUser;

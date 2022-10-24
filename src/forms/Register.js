@@ -113,7 +113,7 @@ const Register = () => {
                         password: password.current.value,
                   };
                   try {
-                        await axios.post("http://localhost:8800/api", user);
+                        await axios.post("https://shebossapi.herokuapp.com/api", user);
                         history.push("/login");
                   } catch (err) {
                         console.log(err);

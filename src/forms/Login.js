@@ -110,12 +110,8 @@ const Login = () => {
                   <Wrapper>
                         <Logo>sheboss</Logo>
                         <Form>
-                              {/* <Input
-                                    type="text"
-                                    placeholder="Username"
-                                    onChange={(e) => setUsername(e.target.value)}
-                              /> */}
-                               <Input
+            
+                              <Input
                                     type="text"
                                     placeholder="Email"
                                     onChange={(e) => setEmail(e.target.value)}

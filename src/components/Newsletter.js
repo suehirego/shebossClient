@@ -12,12 +12,6 @@ const Container = styled.div`
       border-bottom: 0.2px solid gray;;
       padding: 60px 0px;
       gap: 50px;
-      ${media.widescreen`
-            // background: green;
-     `}
-      ${media.desktop`
-            // background: red;
-     `}
       ${media.tablet`
             // background: blue;
             padding: 40px 0px;

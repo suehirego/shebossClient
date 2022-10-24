@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import ProductItem from './ProductItem';
 import axios from 'axios';
-// import media from '../media';
 
 
 const Container = styled.div`

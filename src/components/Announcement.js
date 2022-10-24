@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { MdArrowForwardIos } from 'react-icons/md';
-import { GiPartyPopper} from 'react-icons/gi';
 import media from '../media';
 
 
@@ -13,15 +12,6 @@ const Container = styled.div`
       justify-content: center;
       border: none;
       background-color: #ddebe3;
-      ${media.widescreen`
-            // background: green;
-     `}
-      ${media.desktop`
-            // background: red;
-     `}
-      ${media.tablet`
-            // background: blue;
-      `}
 `;
 const AnnWrapper = styled.div`
       display: flex;

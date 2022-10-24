@@ -7,7 +7,6 @@ import Slider from '../components/Slider';
 import FooterCom from '../components/FooterCom';
 import Newsletter from '../components/Newsletter';
 import NavLinks from '../components/NavLinks';
-// import Products from '../components/Products';
 import SaleList from '../components/SaleList';
 
 const Container = styled.div`
