@@ -52,6 +52,7 @@ const Button = styled(Link)`
       display: flex;
       align-items: center;
       justify-content: center;
+      text-decoration: none;
       transition: all 0.5s ease;
       cursor: pointer;
       &:hover {
