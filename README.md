@@ -1,8 +1,7 @@
 # Description
-Sheboss is an ecommerce full stack MERN application for marginalised women to sell their products. It was insired by "Sheboss Entreprenuership Program for Rural Women" run by Rego Foundation; a non profit empowering women in maginalised areas.
+Sheboss is an ecommerce full stack MERN application for marginalised women to sell their products. It was inspired by "Sheboss Entreprenuership Program for Rural Women" run by Rego Foundation; a non profit Organisation empowering women in maginalised areas.
 
 The app is picking data from a rest API at; https://shebossapi.herokuapp.com/api/ hosted on heroku
-
 
 
 ## Technologies Used;
