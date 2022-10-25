@@ -50,7 +50,7 @@ const SaleList = () => {
       useEffect(() => {
             const getProducts = async ()  => {
                   try {
-                        const res = await axios.get("/products/sale");
+                        const res = await axios.get("https://shebossapi.herokuapp.com/api/products/sale");
                         setProducts(res.data);
                        
                   } catch(err) {}

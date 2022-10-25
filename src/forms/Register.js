@@ -148,7 +148,7 @@ const Register = () => {
                               <Link to="/login" style={{textDecoration: 'none', color: '#191919'}}>
                                     <NewAcc>
                                           Already have an account?
-                                          <Link>Sign in</Link>
+                                          <Link to="/login">Sign in</Link>
                                     </NewAcc>
                               </Link>
 
