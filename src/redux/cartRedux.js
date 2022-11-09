@@ -18,7 +18,6 @@ const cartSlice = createSlice({
                     (product) => product._id === payload
                   );
                   state.products.splice(index, 1);
-                  state.products.splice(index, 1);
             }, 
             
       },
